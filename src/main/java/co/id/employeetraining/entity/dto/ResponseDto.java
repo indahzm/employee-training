@@ -1,10 +1,5 @@
 package co.id.employeetraining.entity.dto;
 
-//@Component
-//@AllArgsConstructor
-//@Data
-//@Builder
-//@Component
 public class ResponseDto {
 	private Integer code;
 	private Object data;
@@ -14,11 +9,6 @@ public class ResponseDto {
 		this.code = code;
 		this.data = data;
 		this.status = status;
-//		Map<String, Object> map = new HashMap<>();
-//		map.put("status", status);
-//		map.put("data", data);
-//		map.put("code", code);
-//		return map;
 	}
 	
 	public Integer getCode() {
